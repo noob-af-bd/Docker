@@ -27,4 +27,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: breakdowns/mega-sdk-python:latest
+          tags: noob-af-bd/mega-sdk-python:latest
