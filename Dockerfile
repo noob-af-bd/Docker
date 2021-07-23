@@ -25,10 +25,10 @@ RUN git clone https://github.com/meganz/sdk.git sdk && cd sdk \
     && cd ~
 
 # Installing MirrorBot dependencies
-RUN curl -sLo /usr/local/bin/extract https://raw.githubusercontent.com/noob-af-bd/slam-mirrorbot-17-07-2021/Translated-into-Bangla-Language/extract \
-    && curl -sLo /usr/local/bin/pextract https://raw.githubusercontent.com/noob-af-bd/slam-mirrorbot-17-07-2021/Translated-into-Bangla-Language/pextract \
+RUN curl -sLo /usr/local/bin/extract https://raw.githubusercontent.com/noob-af-bd/Bengali-slam-mirrorbot/Translated-into-Bangla-Language/extract \
+    && curl -sLo /usr/local/bin/pextract https://raw.githubusercontent.com/noob-af-bd/Bengali-slam-mirrorbot/Translated-into-Bangla-Language/pextract \
     && chmod +x /usr/local/bin/extract /usr/local/bin/pextract \
-    && curl -fsSLO https://raw.githubusercontent.com/noob-af-bd/slam-mirrorbot-17-07-2021/Translated-into-Bangla-Language/requirements.txt \
+    && curl -fsSLO https://raw.githubusercontent.com/noob-af-bd/Bengali-slam-mirrorbot/Translated-into-Bangla-Language/requirements.txt \
     && pip3 install --no-cache-dir -r requirements.txt \
     && rm requirements.txt
 
